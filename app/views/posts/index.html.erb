@@ -1,1 +1,1 @@
-<%=@posts.as_json%>
+<%= react_component('Posts', {initialPosts: @posts} , {prerender: true}) %>
